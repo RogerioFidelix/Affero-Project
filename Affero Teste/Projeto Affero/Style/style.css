@@ -1,0 +1,30 @@
+.question{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-left: -55px;
+  width: 100px;
+  height: 100px;
+}
+.answer{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-left: -55px;
+  width: 100px;
+  height: 50px;
+}
+
+.question:focus, input:focus, select:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.textanswer{
+  border: 0;
+}
+
+.textquestion{
+  border: 0;
+}
